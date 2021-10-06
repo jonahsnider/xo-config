@@ -30,7 +30,7 @@
 		"build": "tsc",
 		"deploy": "semantic-release",
 		"lint": "xo",
-		"style": "prettier --ignore-path .gitignore --check ."
+		"style": "prettier --check ."
 	},
 	"devDependencies": {
 		"@semantic-release/exec": "6.0.1",
