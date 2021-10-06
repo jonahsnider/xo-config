@@ -1,13 +1,19 @@
 {
-	"name": "typescript-starter",
-	"version": "1.0.0",
-	"private": true,
+	"name": "@jonahsnider/xo-config",
+	"version": "0.0.0-development",
+	"keywords": [
+		"xo",
+		"prettier",
+		"xo-config",
+		"eslint",
+		"lint"
+	],
 	"bugs": {
-		"url": "https://github.com/jonahsnider/typescript-starter/issues"
+		"url": "https://github.com/jonahsnider/xo-config/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jonahsnider/typescript-starter.git"
+		"url": "git+https://github.com/jonahsnider/xo-config.git"
 	},
 	"license": "Apache-2.0",
 	"author": {
@@ -16,55 +22,29 @@
 		"url": "https://jonahsnider.com"
 	},
 	"main": "./tsc_output/index.js",
+	"files": [
+		"tsc_output"
+	],
 	"scripts": {
 		"prebuild": "rm -rf tsc_output",
 		"build": "tsc",
+		"deploy": "semantic-release",
 		"lint": "xo",
-		"style": "prettier --check .",
-		"pretest": "rm -rf coverage .nyc_output",
-		"test": "nyc ava"
-	},
-	"xo": {
-		"prettier": true,
-		"rules": {
-			"prettier/prettier": "off"
-		}
-	},
-	"ava": {
-		"extensions": [
-			"ts"
-		],
-		"files": [
-			"!tsc_output"
-		],
-		"require": [
-			"ts-node/register",
-			"source-map-support/register"
-		]
-	},
-	"nyc": {
-		"all": true,
-		"extends": "@istanbuljs/nyc-config-typescript",
-		"include": [
-			"src/**/*.ts"
-		],
-		"reporter": [
-			"lcov",
-			"cobertura"
-		]
+		"style": "prettier --ignore-path .gitignore --check ."
 	},
 	"devDependencies": {
-		"@istanbuljs/nyc-config-typescript": "1.0.1",
+		"@semantic-release/exec": "6.0.1",
 		"@tsconfig/node16": "1.0.2",
-		"@types/node": "16.10.1",
-		"ava": "3.15.0",
-		"nyc": "15.1.0",
+		"@types/prettier": "2.4.1",
+		"eslint-plugin-prettier": "4.0.0",
 		"prettier": "2.4.1",
 		"prettier-config-xo": "2.0.0",
-		"source-map-support": "0.5.20",
-		"ts-node": "10.2.1",
+		"semantic-release": "18.0.0",
 		"typescript": "4.4.3",
 		"xo": "0.45.0"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"packageManager": "yarn@3.0.2"
 }

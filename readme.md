@@ -1,7 +1,17 @@
-# TypeScript Starter
+# [`@jonahsnider/xo-config`](https://www.npmjs.com/package/@jonahsnider/xo-config)
 
-[![Build Status](https://github.com/jonahsnider/typescript-starter/workflows/CI/badge.svg)](https://github.com/jonahsnider/typescript-starter/actions)
+[![npm](https://img.shields.io/npm/v/@jonahsnider/xo-config)](https://www.npmjs.com/package/@jonahsnider/xo-config)
+[![Build Status](https://github.com/jonahsnider/xo-config/workflows/CI/badge.svg)](https://github.com/jonahsnider/xo-config/actions)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
-[![codecov](https://codecov.io/gh/jonahsnider/typescript-starter/branch/main/graph/badge.svg)](https://codecov.io/jonahsnider/typescript-starter)
 
-My personal [TypeScript](https://www.typescriptlang.org) starter template.
+My XO linter config.
+
+## Usage
+
+[Docs](https://github.com/xojs/xo#config).
+
+Create `xo.config.cjs`:
+
+```js
+module.exports = require('@jonahsnider/xo-config');
+```
