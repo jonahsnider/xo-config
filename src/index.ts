@@ -4,6 +4,12 @@ const config = {
 		{
 			files: '**/*.ts',
 			rules: {
+				'@typescript-eslint/consistent-type-imports': [
+					'error',
+					{
+						prefer: 'type-imports',
+					},
+				],
 				// Modern TypeScript versions check for this
 				'@typescript-eslint/no-implicit-any-catch': 'off',
 				// Enum members should be StrictPascalCase, everything else is the same - https://github.com/xojs/eslint-config-xo-typescript/blob/7c1e7d23437d975f7031324ec12250985eb4ae7a/index.js#L281
