@@ -7,6 +7,11 @@ const config = {
 	},
 	overrides: [
 		{
+			files: '**/*.{js,cjs,mjs}',
+			plugins: ['jsdoc'],
+			extends: ['plugin:jsdoc/recommended'],
+		},
+		{
 			files: '**/*.{ts,tsx}',
 			plugins: ['eslint-plugin-tsdoc'],
 			rules: {
