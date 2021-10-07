@@ -1,6 +1,12 @@
 const config = {
 	prettier: true,
 	plugins: ['eslint-plugin-tsdoc'],
+	rules: {
+		'tsdoc/syntax': 'error',
+		'import/extensions': ['error', 'always'],
+		// XO should not report style violations from Prettier - https://github.com/xojs/xo/issues/512
+		'prettier/prettier': 'off',
+	},
 	overrides: [
 		{
 			files: '**/*.ts',
@@ -73,12 +79,6 @@ const config = {
 			},
 		},
 	],
-	rules: {
-		'tsdoc/syntax': 'error',
-		'import/extensions': ['error', 'always'],
-		// XO should not report style violations from Prettier - https://github.com/xojs/xo/issues/512
-		'prettier/prettier': 'off',
-	},
 };
 
 export = config;
