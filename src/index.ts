@@ -9,7 +9,7 @@ const config = {
 	},
 	overrides: [
 		{
-			files: '**/*.ts',
+			files: '**/*.{ts,tsx}',
 			rules: {
 				'@typescript-eslint/consistent-type-imports': [
 					'error',
