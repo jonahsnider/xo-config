@@ -1,8 +1,6 @@
 const config = {
 	prettier: true,
-	plugins: ['eslint-plugin-tsdoc'],
 	rules: {
-		'tsdoc/syntax': 'error',
 		'import/extensions': ['error', 'always'],
 		// XO should not report style violations from Prettier - https://github.com/xojs/xo/issues/512
 		'prettier/prettier': 'off',
@@ -10,7 +8,9 @@ const config = {
 	overrides: [
 		{
 			files: '**/*.{ts,tsx}',
+			plugins: ['eslint-plugin-tsdoc'],
 			rules: {
+				'tsdoc/syntax': 'error',
 				'@typescript-eslint/consistent-type-imports': [
 					'error',
 					{
