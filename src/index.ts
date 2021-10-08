@@ -24,15 +24,19 @@ const config = {
 				],
 				// Modern TypeScript versions check for this
 				'@typescript-eslint/no-implicit-any-catch': 'off',
-				// Enum members should be StrictPascalCase, everything else is the same - https://github.com/xojs/eslint-config-xo-typescript/blob/7c1e7d23437d975f7031324ec12250985eb4ae7a/index.js#L281
+				// Enum members should be StrictPascalCase, variables can be UPPER_CASE, everything else is the same - https://github.com/xojs/eslint-config-xo-typescript/blob/7c1e7d23437d975f7031324ec12250985eb4ae7a/index.js#L281
 				'@typescript-eslint/naming-convention': [
 					'error',
 					{
+						selector: 'variable',
+						format: ['strictCamelCase', 'UPPER_CASE'],
+					},
+					{
 						// `selector: ['variableLike', 'memberLike', 'property', 'method'],`
 						// Note: Leaving out `parameter` and `typeProperty` because of the mentioned known issues.
+						// Leaving out `variable` in favor of custom rule below
 						// Leaving out `enumMember` in favor of custom rule below
 						selector: [
-							'variable',
 							'function',
 							'classProperty',
 							'objectLiteralProperty',
