@@ -64,7 +64,7 @@ const config = {
 						selector: 'variable',
 						types: ['boolean'],
 						format: ['StrictPascalCase'],
-						prefix: ['is', 'has', 'can', 'should', 'will', 'did'],
+						prefix: ['is', 'was', 'has', 'can', 'should', 'will', 'did'],
 					},
 					{
 						// Interface name should not be prefixed with `I`.
