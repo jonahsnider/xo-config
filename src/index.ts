@@ -30,6 +30,7 @@ const config = {
 					{
 						selector: 'variable',
 						format: ['strictCamelCase', 'UPPER_CASE'],
+						leadingUnderscore: 'allow',
 					},
 					{
 						// `selector: ['variableLike', 'memberLike', 'property', 'method'],`
