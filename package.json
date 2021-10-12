@@ -47,6 +47,7 @@
 	},
 	"packageManager": "yarn@3.0.2",
 	"dependencies": {
+		"@types/xo": "0.39.1",
 		"eslint-plugin-jsdoc": "36.1.1",
 		"eslint-plugin-tsdoc": "0.2.14"
 	}

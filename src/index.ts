@@ -1,4 +1,8 @@
-const config = {
+import type {Options as BaseOptions} from 'xo';
+
+type Options = BaseOptions & {overrides?: Array<{files: string} & Options>};
+
+const config: Options = {
 	prettier: true,
 	rules: {
 		'import/extensions': ['error', 'always'],
