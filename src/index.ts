@@ -5,7 +5,6 @@ type Options = BaseOptions & {overrides?: Array<{files: string} & Options>};
 const config: Options = {
 	prettier: true,
 	rules: {
-		'import/extensions': ['error', 'always'],
 		// XO should not report style violations from Prettier - https://github.com/xojs/xo/issues/512
 		'prettier/prettier': 'off',
 		quotes: ['error', 'single', {avoidEscape: true, allowTemplateLiterals: true}],
