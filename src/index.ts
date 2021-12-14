@@ -41,6 +41,7 @@ const config: Options = {
 						// Note: Leaving out `parameter` and `typeProperty` because of the mentioned known issues.
 						// Leaving out `variable` in favor of custom rule below
 						// Leaving out `enumMember` in favor of custom rule below
+						// Allowing StrictPascalCase for React components - see https://github.com/xojs/eslint-config-xo-typescript/issues/48
 						selector: [
 							'function',
 							'classProperty',
@@ -51,7 +52,7 @@ const config: Options = {
 							'typeMethod',
 							'accessor',
 						],
-						format: ['strictCamelCase'],
+						format: ['strictCamelCase', 'StrictPascalCase'],
 						// We allow double underscope because of GraphQL type names and some React names.
 						leadingUnderscore: 'allowSingleOrDouble',
 						trailingUnderscore: 'allow',
