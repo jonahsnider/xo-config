@@ -28,12 +28,13 @@ const config: Options = {
 				],
 				// Modern TypeScript versions check for this
 				'@typescript-eslint/no-implicit-any-catch': 'off',
-				// Enum members should be StrictPascalCase, variables can be UPPER_CASE, everything else is the same - https://github.com/xojs/eslint-config-xo-typescript/blob/7c1e7d23437d975f7031324ec12250985eb4ae7a/index.js#L281
+				// Enum members should be StrictPascalCase, variables can be UPPER_CASE, variables & functions can be StrictPascalCase for React components
+				// Everything else is the same - https://github.com/xojs/eslint-config-xo-typescript/blob/7c1e7d23437d975f7031324ec12250985eb4ae7a/index.js#L281
 				'@typescript-eslint/naming-convention': [
 					'error',
 					{
 						selector: 'variable',
-						format: ['strictCamelCase', 'UPPER_CASE'],
+						format: ['strictCamelCase', 'UPPER_CASE', 'StrictPascalCase'],
 						leadingUnderscore: 'allow',
 					},
 					{
