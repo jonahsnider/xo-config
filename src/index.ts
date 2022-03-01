@@ -8,6 +8,8 @@ const config: Options = {
 		// XO should not report style violations from Prettier - https://github.com/xojs/xo/issues/512
 		'prettier/prettier': 'off',
 		quotes: ['error', 'single', {avoidEscape: true, allowTemplateLiterals: true}],
+		// Bad rule, it's also often prone to breaking TypeScript compilation
+		'unicorn/prefer-json-parse-buffer': 'off',
 	},
 	overrides: [
 		{
