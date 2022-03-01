@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Checkout git repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Get Yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
@@ -37,7 +37,7 @@ jobs:
 
     steps:
       - name: Checkout git repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Get Yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
@@ -61,7 +61,7 @@ jobs:
 
     steps:
       - name: Checkout git repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Get Yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
@@ -87,7 +87,7 @@ jobs:
 
     steps:
       - name: Checkout git repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Get Yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
