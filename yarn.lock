@@ -119,7 +119,7 @@ __metadata:
     "@types/xo": 0.39.2
     eslint-plugin-jsdoc: 37.9.7
     eslint-plugin-tsdoc: 0.2.14
-    prettier: 2.5.1
+    prettier: 2.6.0
     semantic-release: 18.0.1
     typescript: 4.6.2
     xo: 0.48.0
@@ -5641,7 +5641,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.5.1, prettier@npm:^2.5.1":
+"prettier@npm:2.6.0":
+  version: 2.6.0
+  resolution: "prettier@npm:2.6.0"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 3e527ad62279676778a8404d18174d7ca2365ada4caba6eebbcdd9907d1187afd3bc6ade5b4e5f5d4549bb9fb71e45ca8930d71500017635524f8fc05bc52e93
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.5.1":
   version: 2.5.1
   resolution: "prettier@npm:2.5.1"
   bin:
