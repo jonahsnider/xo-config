@@ -96,6 +96,18 @@ const config: Options = {
 				],
 			},
 		},
+		{
+			files: '**/*.{jsx,tsx}',
+			rules: {
+				'react/function-component-definition': [
+					'error',
+					{
+						namedComponents: 'arrow-function',
+						unnamedComponents: 'arrow-function',
+					},
+				],
+			},
+		},
 	],
 };
 
