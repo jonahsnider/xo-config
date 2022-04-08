@@ -37,7 +37,7 @@
 	"dependencies": {
 		"@types/xo": "0.39.2",
 		"eslint-plugin-jsdoc": "38.0.8",
-		"eslint-plugin-tsdoc": "0.2.14"
+		"eslint-plugin-tsdoc": "0.2.15"
 	},
 	"devDependencies": {
 		"@jonahsnider/prettier-config": "1.1.0",
