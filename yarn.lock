@@ -39,14 +39,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@es-joy/jsdoccomment@npm:~0.22.1":
-  version: 0.22.1
-  resolution: "@es-joy/jsdoccomment@npm:0.22.1"
+"@es-joy/jsdoccomment@npm:~0.23.1":
+  version: 0.23.2
+  resolution: "@es-joy/jsdoccomment@npm:0.23.2"
   dependencies:
     comment-parser: 1.3.1
     esquery: ^1.4.0
     jsdoc-type-pratt-parser: ~2.2.5
-  checksum: c12963d60e197914edb33fc81011d3183259b9510d07f0f402d8b4bf1cc7220555be433d1f61c6c43f0fa79c6138dfb614c2a7bed61ecdb541d793e2648869fe
+  checksum: 42a3df1933a19e1538808d96f755b14e8d29b16dfdb018a86e42843dacf352d60c0a2e3dab7127a6b27a22972de3d385b3d494c5220a7a6f7c1fd60445dbbbca
   languageName: node
   linkType: hard
 
@@ -117,7 +117,7 @@ __metadata:
     "@semantic-release/exec": 6.0.3
     "@tsconfig/node16": 1.0.2
     "@types/xo": 0.39.2
-    eslint-plugin-jsdoc: 38.1.6
+    eslint-plugin-jsdoc: 39.2.2
     eslint-plugin-tsdoc: 0.2.16
     prettier: 2.6.2
     semantic-release: 18.0.1
@@ -2269,21 +2269,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:38.1.6":
-  version: 38.1.6
-  resolution: "eslint-plugin-jsdoc@npm:38.1.6"
+"eslint-plugin-jsdoc@npm:39.2.2":
+  version: 39.2.2
+  resolution: "eslint-plugin-jsdoc@npm:39.2.2"
   dependencies:
-    "@es-joy/jsdoccomment": ~0.22.1
+    "@es-joy/jsdoccomment": ~0.23.1
     comment-parser: 1.3.1
     debug: ^4.3.4
     escape-string-regexp: ^4.0.0
     esquery: ^1.4.0
-    regextras: ^0.8.0
-    semver: ^7.3.5
+    semver: ^7.3.7
     spdx-expression-parse: ^3.0.1
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0
-  checksum: 600dac3a9b81ac6fcb62a30a30e83a85a003ca3ecfe5376d99a1042ba703cfdf3ef404413c74a75f61c2a77e6cc7435628cfc51d80081108a67965ac238d14b4
+  checksum: 66f45015edb8fef35b2671701f28da09b81e6bf26b171d7fe84d4092e42ece17667e4ba6974c31150fb3d8588b3356b7feacbd952aecabf52bdc7585c3a2c3d0
   languageName: node
   linkType: hard
 
@@ -5978,13 +5977,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"regextras@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "regextras@npm:0.8.0"
-  checksum: b7ec5b32a2b98b4b27048d44f8ab90009873c1307f2cf89321aa8c4cbb8147f1bee07863f4dadf585546ca0b91a234ad9804954dea5fc029421f6c25a4523798
-  languageName: node
-  linkType: hard
-
 "registry-auth-token@npm:^4.0.0":
   version: 4.2.1
   resolution: "registry-auth-token@npm:4.2.1"
@@ -6234,6 +6226,17 @@ resolve@~1.19.0:
   bin:
     semver: ./bin/semver.js
   checksum: 1b26ecf6db9e8292dd90df4e781d91875c0dcc1b1909e70f5d12959a23c7eebb8f01ea581c00783bbee72ceeaad9505797c381756326073850dc36ed284b21b9
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.3.7":
+  version: 7.3.7
+  resolution: "semver@npm:7.3.7"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: 2fa3e877568cd6ce769c75c211beaed1f9fce80b28338cadd9d0b6c40f2e2862bafd62c19a6cff42f3d54292b7c623277bcab8816a2b5521cf15210d43e75232
   languageName: node
   linkType: hard
 
