@@ -35,7 +35,7 @@
 	},
 	"prettier": "@jonahsnider/prettier-config",
 	"dependencies": {
-		"@types/xo": "0.39.2",
+		"@types/xo": "0.39.3",
 		"eslint-plugin-jsdoc": "39.3.2",
 		"eslint-plugin-tsdoc": "0.2.16"
 	},
