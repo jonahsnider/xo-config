@@ -22,16 +22,6 @@ const config: Options = {
 			plugins: ['eslint-plugin-tsdoc'],
 			rules: {
 				'tsdoc/syntax': 'error',
-				'@typescript-eslint/consistent-type-imports': [
-					'error',
-					{
-						prefer: 'type-imports',
-					},
-				],
-				'@typescript-eslint/consistent-generic-constructors': [
-					'error',
-					'type-annotation'
-				],
 				// Modern TypeScript versions check for this
 				'@typescript-eslint/no-implicit-any-catch': 'off',
 				// Enum members should be StrictPascalCase, variables can be UPPER_CASE, variables & functions can be StrictPascalCase for React components
