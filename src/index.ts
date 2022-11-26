@@ -6,6 +6,7 @@ const config: Options = {
 	prettier: true,
 	rules: {
 		// XO should not report style violations from Prettier - https://github.com/xojs/xo/issues/512
+		// eslint-disable-next-line @typescript-eslint/naming-convention
 		'prettier/prettier': 'off',
 		quotes: ['error', 'single', {avoidEscape: true, allowTemplateLiterals: true}],
 		// Bad rule, it's also often prone to breaking TypeScript compilation
@@ -21,6 +22,7 @@ const config: Options = {
 			files: '**/*.{ts,tsx}',
 			plugins: ['eslint-plugin-tsdoc'],
 			rules: {
+				// eslint-disable-next-line @typescript-eslint/naming-convention
 				'tsdoc/syntax': 'error',
 				// Modern TypeScript versions check for this
 				'@typescript-eslint/no-implicit-any-catch': 'off',
