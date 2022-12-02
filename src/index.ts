@@ -22,6 +22,7 @@ const config: Options = {
 			files: '**/*.{ts,tsx}',
 			plugins: ['eslint-plugin-tsdoc'],
 			rules: {
+				'default-case': 'off',
 				// eslint-disable-next-line @typescript-eslint/naming-convention
 				'tsdoc/syntax': 'error',
 				// Modern TypeScript versions check for this
