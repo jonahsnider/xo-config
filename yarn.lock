@@ -175,7 +175,7 @@ __metadata:
     prettier: 2.8.8
     semantic-release: 20.1.3
     typescript: 4.9.5
-    xo: 0.55.0
+    xo: 0.55.1
   languageName: unknown
   linkType: soft
 
@@ -2372,7 +2372,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.27.5":
+"eslint-plugin-import@npm:~2.27.5":
   version: 2.27.5
   resolution: "eslint-plugin-import@npm:2.27.5"
   dependencies:
@@ -7566,9 +7566,9 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"xo@npm:0.55.0":
-  version: 0.55.0
-  resolution: "xo@npm:0.55.0"
+"xo@npm:0.55.1":
+  version: 0.55.1
+  resolution: "xo@npm:0.55.1"
   dependencies:
     "@eslint/eslintrc": ^2.1.0
     "@typescript-eslint/eslint-plugin": ^6.0.0
@@ -7584,7 +7584,7 @@ resolve@~1.19.0:
     eslint-import-resolver-webpack: ^0.13.2
     eslint-plugin-ava: ^14.0.0
     eslint-plugin-eslint-comments: ^3.2.0
-    eslint-plugin-import: ^2.27.5
+    eslint-plugin-import: ~2.27.5
     eslint-plugin-n: ^16.0.1
     eslint-plugin-no-use-extend-native: ^0.5.0
     eslint-plugin-prettier: ^5.0.0
@@ -7608,7 +7608,7 @@ resolve@~1.19.0:
     typescript: ^5.1.6
   bin:
     xo: cli.js
-  checksum: e08ebf6b30c6f005ec40bff712dfdf4ac765cf97e2532e3a30791b0dba7442e70388b94915cb9dc931535e183bbb3abc2ad09c3f9cff8f12ecb518a004a58f8f
+  checksum: 54063dc97b9dd802da7f8d0d3f18992efc37770ef1eda851215fb52249460c8184c207961b640049f9fbc1bc0a1d249333904f1139612c34e12a59aa3b3ae71d
   languageName: node
   linkType: hard
 
