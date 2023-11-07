@@ -232,7 +232,7 @@ __metadata:
     "@jonahsnider/prettier-config": 1.1.2
     "@semantic-release/exec": 6.0.3
     "@tsconfig/node16": 16.1.1
-    "@types/xo": 0.39.7
+    "@types/xo": 0.39.8
     eslint-plugin-jsdoc: 46.8.2
     eslint-plugin-tsdoc: 0.2.17
     prettier: 3.0.3
@@ -951,12 +951,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/xo@npm:0.39.7":
-  version: 0.39.7
-  resolution: "@types/xo@npm:0.39.7"
+"@types/xo@npm:0.39.8":
+  version: 0.39.8
+  resolution: "@types/xo@npm:0.39.8"
   dependencies:
     "@types/eslint": "*"
-  checksum: 89028bdf305d2cff8102711d3b7e7eba42d763f333b46b5cdf9a4a3116e156a5b1e888fec1723ca19a1282a2c5a3fc9f4340a302ea11fa8ee28e6ae40ace11b5
+  checksum: a6dea0c4e3411f7b6327cd943620722b23386f5817aaae0e282c18348440a0240284da569a5b49c76b961fee12914cb494f06549ede308d2a0d5f6b409f85417
   languageName: node
   linkType: hard
 
