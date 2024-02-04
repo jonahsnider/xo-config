@@ -43,7 +43,7 @@
 		"@jonahsnider/prettier-config": "1.1.2",
 		"@semantic-release/exec": "6.0.3",
 		"@tsconfig/node16": "16.1.1",
-		"prettier": "3.2.2",
+		"prettier": "3.2.5",
 		"semantic-release": "22.0.12",
 		"typescript": "5.3.3",
 		"xo": "0.56.0"
