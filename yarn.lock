@@ -242,7 +242,7 @@ __metadata:
     "@jonahsnider/prettier-config": "npm:1.1.2"
     "@semantic-release/exec": "npm:6.0.3"
     "@tsconfig/node16": "npm:16.1.3"
-    "@types/xo": "npm:0.39.8"
+    "@types/xo": "npm:0.39.9"
     eslint-plugin-jsdoc: "npm:46.10.1"
     eslint-plugin-tsdoc: "npm:0.2.17"
     prettier: "npm:3.2.5"
@@ -878,13 +878,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:*":
-  version: 7.28.1
-  resolution: "@types/eslint@npm:7.28.1"
+"@types/eslint@npm:8":
+  version: 8.56.12
+  resolution: "@types/eslint@npm:8.56.12"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: 10c0/8b58308a95eb59e5cb1627ca0e949c9883d335e31ae7a3881d28eb72d570101263e44e63da7871d050f592de2a76e7f630c3800566726a84f12919fa6e9c420a
+  checksum: 10c0/e4ca426abe9d55f82b69a3250bec78b6d340ad1e567f91c97ecc59d3b2d6a1d8494955ac62ad0ea14b97519db580611c02be8277cbea370bdfb0f96aa2910504
   languageName: node
   linkType: hard
 
@@ -961,12 +961,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/xo@npm:0.39.8":
-  version: 0.39.8
-  resolution: "@types/xo@npm:0.39.8"
+"@types/xo@npm:0.39.9":
+  version: 0.39.9
+  resolution: "@types/xo@npm:0.39.9"
   dependencies:
-    "@types/eslint": "npm:*"
-  checksum: 10c0/7d06b70ff655ed3f79ffa91e2014a4561db7d04d58831e2f380ab8ae10c7dac3583e8efb5c9ac37bc069af05ce47b79492d4d43fc44fc3e09307acbb24cecbea
+    "@types/eslint": "npm:8"
+  checksum: 10c0/6427df6f1562bd11c8e20dbd5f81dcc17b50c33fd7fe5991a684de54f4daa83bf0a85fed28c0c5bdb57bf0cc964df33c96f2130365a45e3c960f8d3f1f3d69da
   languageName: node
   linkType: hard
 
