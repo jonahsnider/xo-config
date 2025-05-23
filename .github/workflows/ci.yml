@@ -59,28 +59,3 @@ jobs:
         run: yarn install --immutable
       - name: Check style
         run: yarn run style
-  publish:
-    name: Publish
-
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-
-    if: ${{ github.ref  == 'refs/heads/main' }}
-
-    needs: [build, lint, style]
-
-    steps:
-      - name: Checkout Git repository
-        uses: actions/checkout@v4
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 'lts/*'
-          cache: 'yarn'
-      - name: Install dependencies with Yarn
-        run: yarn install --immutable
-      - name: Publish release
-        run: yarn run deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
