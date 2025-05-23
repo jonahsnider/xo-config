@@ -16,6 +16,7 @@
 		"url": "git+https://github.com/jonahsnider/xo-config.git"
 	},
 	"license": "Apache-2.0",
+	"type": "module",
 	"author": {
 		"name": "Jonah Snider",
 		"email": "jonah@jonahsnider.com",
@@ -35,18 +36,17 @@
 	},
 	"prettier": "@jonahsnider/prettier-config",
 	"dependencies": {
-		"@types/xo": "0.39.9",
-		"eslint-plugin-jsdoc": "46.10.1",
-		"eslint-plugin-tsdoc": "0.2.17"
+		"eslint-plugin-jsdoc": "50.6.17",
+		"eslint-plugin-tsdoc": "0.4.0"
 	},
 	"devDependencies": {
 		"@jonahsnider/prettier-config": "1.1.2",
-		"@semantic-release/exec": "6.0.3",
-		"@tsconfig/node16": "16.1.3",
-		"prettier": "3.2.5",
-		"semantic-release": "22.0.12",
-		"typescript": "5.4.5",
-		"xo": "0.58.0"
+		"@semantic-release/exec": "7.1.0",
+		"@tsconfig/node22": "22.0.2",
+		"prettier": "3.5.3",
+		"semantic-release": "24.2.5",
+		"typescript": "5.8.3",
+		"xo": "1.0.0"
 	},
 	"publishConfig": {
 		"access": "public"

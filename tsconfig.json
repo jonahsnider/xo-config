@@ -4,6 +4,6 @@
 		"inlineSourceMap": true,
 		"outDir": "tsc_output"
 	},
-	"extends": "@tsconfig/node16",
+	"extends": "@tsconfig/node22",
 	"include": ["src"]
 }
