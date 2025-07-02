@@ -269,7 +269,7 @@ __metadata:
   dependencies:
     "@jonahsnider/prettier-config": "npm:1.1.2"
     "@tsconfig/node22": "npm:22.0.2"
-    eslint-plugin-jsdoc: "npm:51.3.1"
+    eslint-plugin-jsdoc: "npm:51.3.2"
     eslint-plugin-tsdoc: "npm:0.4.0"
     prettier: "npm:3.6.2"
     typescript: "npm:5.8.3"
@@ -1887,9 +1887,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:51.3.1":
-  version: 51.3.1
-  resolution: "eslint-plugin-jsdoc@npm:51.3.1"
+"eslint-plugin-jsdoc@npm:51.3.2":
+  version: 51.3.2
+  resolution: "eslint-plugin-jsdoc@npm:51.3.2"
   dependencies:
     "@es-joy/jsdoccomment": "npm:~0.52.0"
     are-docs-informative: "npm:^0.0.2"
@@ -1903,7 +1903,7 @@ __metadata:
     spdx-expression-parse: "npm:^4.0.0"
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 10c0/c43930c3546028a7423636edd50e1a6a294cfaf6d53db2fd275d9bd3e6b4e615bededcb7682c56d5c09f5d32b4dbc5699694c8708f5aa18ffff03a85e0bf83c8
+  checksum: 10c0/2fde06c28968d522aa8c7911619e4de80aafa8a61f55af30601f7ada8af070a2f8f984ef15d77be178e508f00d0ad19f318bb26a08c120b88a2936d2dd07d8c7
   languageName: node
   linkType: hard
 
