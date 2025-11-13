@@ -284,7 +284,7 @@ __metadata:
   resolution: "@jonahsnider/xo-config@workspace:."
   dependencies:
     "@jonahsnider/prettier-config": "npm:1.1.2"
-    "@tsconfig/node22": "npm:22.0.2"
+    "@tsconfig/node22": "npm:22.0.3"
     eslint-plugin-jsdoc: "npm:61.2.0"
     eslint-plugin-tsdoc: "npm:0.5.0"
     prettier: "npm:3.6.2"
@@ -422,10 +422,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/node22@npm:22.0.2":
-  version: 22.0.2
-  resolution: "@tsconfig/node22@npm:22.0.2"
-  checksum: 10c0/c75e6b9ea86ec2a384adefac0e2f16a6c08202ae5cf6c8c745944396a6931ffb38e742809491c1882d1868c2af1c33744193701779674bfb1e05f6a130045a18
+"@tsconfig/node22@npm:22.0.3":
+  version: 22.0.3
+  resolution: "@tsconfig/node22@npm:22.0.3"
+  checksum: 10c0/77ef3207e3da5184fdedc2db86f37bd0e049286e37b5c3ac6607a5b78292d9aa95793921df5f0a0860122247b1b5a602bf7ea179e42f9039c94949f96146e61a
   languageName: node
   linkType: hard
 
